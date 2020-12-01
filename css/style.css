@@ -1,0 +1,75 @@
+.square{
+       width:200px;
+	   height:200px;
+	   background-color:red;
+}
+.rectangle{
+        width:400px;
+        height:200px;
+        background-color: blue;
+}	
+.circle{
+	    width:300px;
+        height:300px;
+        background-color: green;
+		border-radius: 50%;
+}
+.oval{
+	   width:400px;
+	   height:200px;
+	   background-color:yellow;
+	   border-radius:200px/100px;
+}
+.triangleup{
+	   width:0px;
+	   height:0px;
+	   border-bottom:200px solid red;
+	   border-left:100px solid transparent;
+	   border-right:100px solid transparent;
+}
+.triangledown{
+	   width:0px;
+	   height:0px;
+	   border-top:200px solid indigo;
+	   border-left:100px solid transparent;
+	   border-right:100px solid transparent;
+}
+.triangleleft{
+	   width:0px;
+	   height:0px;
+	   border-top:100px solid transparent;
+	   border-bottom:100px solid transparent;
+	   border-right:200px solid blue;
+}
+.triangleright{
+	   width:0px;
+	   height:0px;
+	   border-top:100px solid transparent;
+	   border-bottom:100px solid transparent;
+	   border-left:200px solid violet;
+}
+.rightangle{
+	   width:0px;
+	   height:0px;	   
+	   border-top:200px solid transparent;
+	   border-left:100px solid blue;
+}
+.shobuj{
+	   background-color:green;
+	   width:500px;
+	   height:300px;
+       position:relative;	   
+}
+.lal{
+	width:200px;
+	height:200px;
+	background-color:red;
+	border-radius:50%;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+}
+
